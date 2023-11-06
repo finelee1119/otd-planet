@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>onthedot planet</title>
+    
+    <!-- 헤더 -->
+    <style>
+        #header {
+            /* 중앙 정렬 */
+            width: 300px;
+            margin: 0 auto;
+            font-family: 'Roboto';
+            color: black;
+        }
+
+        #header a:visited {
+            color:black /*방문링크 색상*/
+        }
+
+        #header > #logo {
+            position:absolute;
+            left:5%; top: 20px;
+            font-size: 30px;
+            color: black;
+            text-decoration: none;
+        }
+
+        #header > #title {
+            position:relative;
+            left:40%; top: -20px;
+            font-size: 35px;
+        }
+
+        #header > #userinfo {
+            position:absolute;
+            right:15%; top: 20px;
+            font-size: 30px;
+        }
+
+        #header > #teaminfo {
+            position:absolute;
+            right:10%; top: 20px;
+            font-size: 30px;
+        }
+        
+        #header > #teaminfo > a {
+            color : black;
+        }
+
+        #header > #signin {
+            position:absolute;
+            right:5%; top: 20px;
+            font-size: 30px;
+        }
+    </style>
+
+    <!-- 메뉴 -->
+    <style>
+    #nav {
+        position: relative; 
+        top: 68px; 
+    }
+
+    .nav {
+        overflow: hidden;
+        
+        background-color: #05c374;
+    }
+
+    .nav a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: skyblue;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    </style>
+
+    <!-- 본문 -->
+    <style>
+    #content {
+        position: relative; 
+        top: 68px; 
+        height: 500px;
+        background-color: white;
+    }
+    </style>
+
+    <!-- 푸터 -->
+    <style>
+    #bottom {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(71, 71, 71);
+    }
+    </style>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header id = "header">
+        <div id="logo">
+            <a href="home.html">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div id="title">
+            <a href="home.html"><p>onthedot <strong>plan</strong>et</p></a>
+        </div>
+        <nav id="userinfo">
+            <a href="" class="userinfo">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+        </nav>
+        <nav id="teaminfo">
+            <a href="teaminfo">
+                <i class="fa fa-tumblr" aria-hidden="true"></i>
+            </a>
+        </nav>
+        <nav id="signin">
+            <a href="">
+                <i class="fa fa-sign-in" aria-hidden="true"></i>
+            </a>  
+        </nav>
+    </header>
+
+    <!-- 메뉴 -->
+	<div id = "nav">
+        <div class="nav">
+            <a href="home.html" id="home">홈</a>
+            <a href="" id="notice">공지</a>
+    
+            <div class="dropdownMenu">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        일정
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">캘린더</a>
+                        <a href="#">투표</a>
+                        <a href="#">일정목록</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        라인업 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">라인업 보기</a>
+                        <a href="#">라인업 상세</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        기록 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">경기 기록</a>
+                        <a href="#">훈련 일지</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+	</div>
+
+    <!-- 본문 -->
+	<div id = "content">
+        <section id="main_section">
+            <p></p>
+        </section>
+        <aside id="main_aside">
+
+        </aside>
+	</div>
+
+    <!-- 푸터 -->
+	<div id="bottom">
+        <p></p>
+    </div>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>onthedot planet</title>
+</head>
+
+<body>
+    <!-- 최상단 : 로고, 타이틀, 개인, 팀, 로그인/가입 -->
+    <div class="top">
+        <a href="" class="logo">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+        </a>
+        <a href="" class="title">
+            onthedot <strong>plan</strong>et
+        </a>
+
+        <a href="" class="userinfo">
+            <i class="fa fa-user" aria-hidden="true"></i>
+        </a>
+        <a href="teaminfo">
+            <i class="fa fa-tumblr" aria-hidden="true"></i>
+        </a>
+
+        <a href="" class="sign">sign</a>
+    </div>
+
+    <!-- 메뉴 -->
+    <div class="nav">
+        <a href="" class="home">홈</a>
+        <a href="" class="notice">공지</a>
+
+        <div class="dropdownMenu">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    일정
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">캘린더</a>
+                    <a href="#">투표</a>
+                    <a href="#">일정목록</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    라인업 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">라인업 보기</a>
+                    <a href="#">라인업 상세</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    기록 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">경기 기록</a>
+                    <a href="#">훈련 일지</a>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+</body>
+</html>

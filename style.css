@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar-text {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -14,3 +15,21 @@ footer {
     height: 200px;
     background-color: black;
 }
+=======
+.navbar-text {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    color: var(--bs-navbar-color);
+}
+
+.navbar-text a {
+    color: var(--bs-navbar-active-color);
+    text-decoration: none;
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+}
+>>>>>>> f5a38b2 (first commit)

@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+<<<<<<< HEAD
+/* 공통적으로 사용되는 스타일 작성 */
+
+/* 간단한 초기화 */
+* { margin: 0; padding: 0; }
+        body { font-family: sans-serif; }
+        li { list-style: none; }
+        a { text-decoration: none; }
+        img { border: 0; }
+
+/* 시작 */
+=======
+/* 여기서부터 최상단 */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .logo {
+        font-size : 50px;
+        color : black;
+        text-decoration: none;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-right: 10px;
+    }
+
+    .title {
+        font-size : 50px;
+        color : black;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 25%;
+        padding-right: 20%;
+    }
+
+    .userinfo {
+        font-size : 20px;
+        color : black;
+        text-decoration: none;
+        padding-left: 2%;
+        padding-right: 1%;
+    }
+
+    .teaminfo {
+        font-size: 30px; /* 폰트 크기를 크게 조절 */
+        color: black;
+        text-decoration: none;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-right: 10px;
+        width: 150px; /* 너비를 크게 조절 */
+        height: 50px; /* 높이를 크게 조절 */
+    }
+
+    .sign {
+        font-size : 20px;
+        color: black;
+        text-decoration: none;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-right: 10px;
+    }
+
+/* 여기서부터 메뉴 */
+.nav {
+    overflow: hidden;
+    background-color: #05c374;
+}
+
+.nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+>>>>>>> bb0f952db861b2938677c41269a3152831c1e3bc
