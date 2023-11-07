@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .navbar-text {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -17,7 +15,7 @@ footer {
     height: 200px;
     background-color: black;
 }
-=======
+
 .navbar-text {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -34,10 +32,7 @@ footer {
     height: 200px;
     background-color: black;
 }
->>>>>>> f5a38b2 (first commit)
-=======
->>>>>>> 1b9dd27 (change)
-=======
+
 header {
     /* border: 1px solid red; */
     height: 120px;
@@ -132,5 +127,3 @@ hr {
 
 
 }
-
->>>>>>> 6d48f4c (first layout)
