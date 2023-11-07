@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .navbar-text {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -36,3 +37,100 @@ footer {
 >>>>>>> f5a38b2 (first commit)
 =======
 >>>>>>> 1b9dd27 (change)
+=======
+header {
+    /* border: 1px solid red; */
+    height: 120px;
+    min-width: 150px;
+    background-color: #fff;
+}
+
+main {
+    /* border: 1px solid red; */
+    height: auto;
+    /* background-color: gray; */
+}
+
+footer {
+    /* border: 1px solid red; */
+    height: 200px;
+    background-color: black;
+
+    color: whitesmoke;
+}
+
+.navbar-firstline {
+    /* border: 1px solid red; */
+    /* background-color: yellow; */
+
+    height: 60px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    margin: 0; 
+}
+
+.navbar-secondline {
+    /* border: 1px solid red; */
+    /* background-color: skyblue; */
+
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-secondline a {
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.img-area {
+    margin-right: 15px;
+}
+
+.btn-color {
+    background-color: white;
+    color: black;
+}
+
+
+.navbar-middle a {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.nav-item {
+    text-decoration: none; /* 메뉴 밑줄 지우기 */
+    color: black;
+    margin-right: 18px; /* 메뉴 간격 벌리기 */
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    /* 모바일 화면 스타일 조정 */
+    .navbar-middle a {
+        display: none;
+    }
+    .navbar-secondline a {
+        font-size: 13px;
+        margin: 0;
+    }
+
+
+
+}
+
+>>>>>>> 6d48f4c (first layout)
